@@ -4,11 +4,13 @@
   box-sizing: border-box;
 }
 
+
 :root {
   --teal-dark: #0f5168;
   --teal-light: #cce9f7;
   --footer-bg: #031018;
 }
+
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -17,11 +19,13 @@ body {
   line-height: 1.5;
 }
 
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
 }
+
 
 .text-center {
   text-align: center;
@@ -33,6 +37,7 @@ body {
   border-bottom: 1px solid rgba(15,81,104,0.12);
 }
 
+
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -40,11 +45,13 @@ body {
   height: 100%;
 }
 
+
 nav {
   flex: 1;
   display: flex;
   justify-content: center;
 }
+
 
 .nav-links {
   display: inline-flex;
@@ -57,12 +64,14 @@ nav {
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
 
+
 .logo {
   font-size: 2rem;
   font-weight: bold;
   color: var(--teal-dark);
   line-height: 1;
 }
+
 
 .nav-links li a {
   text-decoration: none;
@@ -73,14 +82,17 @@ nav {
   border-radius: 6px;
 }
 
+
 .nav-links li a.active {
   background: rgba(255,255,255,0.18);
 }
+
 
 .nav-links li a:hover,
 .nav-links li a:focus {
   background: rgba(255,255,255,0.08);
 }
+
 
 .auth-buttons {
   display: flex;
@@ -88,12 +100,14 @@ nav {
   align-items: center;
 }
 
+
 .btn-link {
   text-decoration: none;
   color: var(--teal-dark);
   font-size: 0.92rem;
   font-weight: bold;
 }
+
 
 .hero {
   display: flex;
@@ -106,6 +120,7 @@ nav {
   margin: 18px auto 0;
 }
 
+
 .hero-content {
   display: flex;
   justify-content: space-around;
@@ -113,6 +128,7 @@ nav {
   flex: 1;
   gap: 30px;
 }
+
 
 .badge {
   color: black;
@@ -122,11 +138,13 @@ nav {
   margin-bottom: 0.1rem;
 }
 
+
 .hero-content p {
   line-height: 1.35;
   color: black;
   margin-bottom: 1.2rem;
 }
+
 
 .hero-actions {
   align-self: center;
@@ -136,6 +154,7 @@ nav {
   align-items: center;
   margin-top: 50px;
 }
+
 
 .btn-primary {
   background-color: #005f73;
@@ -147,6 +166,7 @@ nav {
   font-size: 0.95rem;
   display: inline-block;
 }
+
 
 .btn-secondary {
   background-color: #ffffff;
@@ -162,9 +182,11 @@ nav {
   gap: 0.5rem;
 }
 
+
 .btn-secondary .arrow {
   font-size: 0.8rem;
 }
+
 
 .hero-image {
   flex: 1;
@@ -175,12 +197,14 @@ nav {
   flex-shrink: 0;
 }
 
+
 .hero-image img {
   width: 100%;
   max-width: 480px;
   height: auto;
   object-fit: contain;
 }
+
 
 .about-section {
   background-color: var(--teal-dark);
@@ -189,10 +213,12 @@ nav {
   text-align: center;
 }
 
+
 .about-section h2 {
   font-size: 1.4rem;
   margin-bottom: 8px;
 }
+
 
 .about-section h3 {
   font-size: 1rem;
@@ -200,6 +226,7 @@ nav {
   max-width: 800px;
   margin: 0 auto 20px auto;
 }
+
 
 .about-section p {
   font-size: 0.85rem;
@@ -209,6 +236,7 @@ nav {
   color: #e0f0f5;
 }
 
+
 .section-title {
   font-size: 3rem;
   color: var(--teal-dark);
@@ -217,9 +245,11 @@ nav {
   font-weight: 800;
 }
 
+
 .title-line {
   display: none;
 }
+
 
 .carousel-wrapper {
   display: flex;
@@ -228,6 +258,7 @@ nav {
   gap: 18px;
   margin-bottom: 20px;
 }
+
 
 .carousel-nav {
   background-color: rgba(15, 81, 104, 0.9);
@@ -244,6 +275,7 @@ nav {
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
+
 .partners-box {
   background-color: #bfeaf7;
   width: 100%;
@@ -256,6 +288,7 @@ nav {
   align-items: center;
 }
 
+
 .partner-item {
   display: flex;
   align-items: center;
@@ -265,6 +298,7 @@ nav {
   flex-shrink: 0;
 }
 
+
 .partner-img {
   max-width: 100%;
   max-height: 100%;
@@ -272,11 +306,13 @@ nav {
   display: block;
 }
 
+
 .testimonials-grid {
   display: flex;
   gap: 25px;
   justify-content: center;
 }
+
 
 .testimonial-card {
   background: #fff;
@@ -289,6 +325,7 @@ nav {
   margin-top: 40px;
 }
 
+
 .avatar-container {
   width: 70px;
   height: 70px;
@@ -299,16 +336,19 @@ nav {
   box-shadow: 0 2px 5px rgba(0,0,0,0.15);
 }
 
+
 .avatar-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
+
 .testimonial-card h3 {
   font-size: 1rem;
   color: #000;
 }
+
 
 .testimonial-card .role {
   display: block;
@@ -317,15 +357,18 @@ nav {
   margin-bottom: 12px;
 }
 
+
 .testimonial-card p {
   font-size: 0.8rem;
   color: #555;
   line-height: 1.4;
 }
 
+
 .contact-section {
   padding-bottom: 50px;
 }
+
 
 .contact-card {
   background-color: var(--teal-dark);
@@ -335,10 +378,12 @@ nav {
   border-radius: 4px;
 }
 
+
 .form-group {
   margin-bottom: 15px;
   text-align: left;
 }
+
 
 .form-group label {
   display: block;
@@ -346,6 +391,7 @@ nav {
   font-size: 0.85rem;
   margin-bottom: 5px;
 }
+
 
 .form-group input,
 .form-group textarea {
@@ -357,96 +403,85 @@ nav {
   outline: none;
 }
 
-.footer {
-  background-color: var(--footer-bg);
-  color: #fff;
-  padding: 30px 0 15px 0;
+/* FOOTER */
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 3rem 8% 1.5rem;
+  font-size: 0.85rem;
 }
 
-.footer-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr auto;
-  gap: 30px;
-  margin-bottom: 20px;
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  margin-bottom: 2.5rem;
+}
+
+.footer-col {
+  flex: 1;
 }
 
 .footer-col h3 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
+  color: #ffffff;
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .footer-col p {
-  font-size: 0.75rem;
-  color: #aaa;
-  line-height: 1.4;
+  line-height: 1.6;
+  color: #cccccc;
 }
 
-.social-col {
+.footer-col.social {
   display: flex;
-  flex-direction: column;
-  gap: 8px;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.social-col a {
-  color: #fff;
-  font-size: 1rem;
+/* STYLE DE BASE DES PILULES SOCIALES */
+.social-pill {
+  background-color: #ffffff;
+  border-radius: 12px;
+  display: flex;
 }
 
-.copyright {
+.social-pill a {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 10px;
+  width: 24px;
+  height: 24px;
+  color: #005f73;
+  text-decoration: none;
+}
+
+.social-pill svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* PILULE HORIZONTALE (Sous "A Propos") */
+.social-pill.horizontal {
+  flex-direction: row;
+  gap: 15px;
+  padding: 8px 16px;
+  width: fit-content;
+  margin-top: 1.5rem;
+}
+
+/* PILULE VERTICALE (À droite du footer) */
+.social-pill.vertical {
+  flex-direction: column;
+  gap: 12px;
+  padding: 10px 8px;
+  align-items: center;
+}
+
+.footer-bottom {
   text-align: center;
-  font-size: 0.82rem;
-  color: #777;
-  border-top: 1px solid #11222d;
-  padding-top: 15px;
-}
-
-.defar-badge {
-  width: 110px;
-  height: 110px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, #f5f5f5 0%, #d7eef8 100%);
-  color: #0f5168;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  line-height: 1.1;
-  box-shadow: 0 0 0 3px rgba(255,255,255,0.08);
-  border: 2px solid rgba(15,81,104,0.15);
-}
-
-.defar-top {
-  font-size: 0.9rem;
-}
-
-.defar-bottom {
-  font-size: 1.05rem;
-}
-
-@media (max-width: 768px) {
-  .hero-content {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .nav-container {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .partners-box,
-  .testimonials-grid {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .footer-content {
-    grid-template-columns: 1fr;
-  }
+  border-top: 1px solid #222222;
+  padding-top: 1.5rem;
+  font-size: 0.75rem;
+  color: #888888;
 }
